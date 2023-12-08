@@ -5,9 +5,9 @@ import {Alert, List, ListItem, ListItemIcon, ListItemText, Stack, Typography} fr
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 
 const files = [
-"/somedirectory_on_my_local_disc/x.jpg",
-"/somedirectory_on_my_local_disc/y.jpg",
-"/somedirectory_on_my_local_disc/z.jpg"
+"/somedirectory_on_my_local_disc/cotswolds.webp",
+"/somedirectory_on_my_local_disc/london.jpeg",
+"/somedirectory_on_my_local_disc/new_york.jpeg"
 ]
 
 
@@ -42,7 +42,7 @@ function Uploader() {
             <Alert severity="success">
                 file {"XXXXX"} is uploading
             </Alert>
-            <Button onClicl={() => alert("Implement me")} variant="contained" component="label">
+            <Button onClick={() => alert("Implement me")} variant="contained" component="label">
                 Upload
             </Button>
         </Box>
