@@ -14,7 +14,7 @@
 
 #### 3. copy image files to another directory 
 
-copy the files in ./image_files/* to another directory on your disk
+copy the files in ./image_files/* to another directory on your disk make a note of this directory
 
 #### 4. edit the list of files
 
@@ -22,10 +22,10 @@ edit the list of files in /src/Uploader.js to match the location in 3.
 
 #### 5. implement the onClick
 
--implement the Upload button in /src/Uploader.js to upload the files in the list.  
--Assume this will involve calling nation fs library functions with electron.
--upload the files to the dummy server (see 2) above to "http://localhost:8080/upload"
-handle any security dialogs
+- implement the Upload button in /src/Uploader.js to upload the files in the list.  
+- Assume this will involve calling nation fs library functions with electron.
+- prompt the user for permissions to access the directory the files are stored in (see 3). handle any security dialogs
+- upload the files to the dummy server (see 2) above to "http://localhost:8080/upload". 
 
 #### 6. implement call backs
 
